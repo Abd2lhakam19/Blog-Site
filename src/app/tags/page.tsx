@@ -1,12 +1,15 @@
+import Blogs from '@/features/tags/components/Blogs';
 import Info from '@/features/tags/components/Info';
 import Navbar from '@/features/tags/components/Navbar';
 import React from 'react'
 
 const TagPage = () => {
     return (
-        <div className=' bg-background min-h-screen'>
+        <div className=' bg-background min-h-screen '>
+            <div className='grain-overlay'></div>
             <Navbar />
             <Info />
+            <Blogs/>
         </div>
     )
 }

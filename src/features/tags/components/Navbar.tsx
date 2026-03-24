@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div >
-            <nav className='fixed top-0  px-6 py-4 sm:px-12 lg:px-24 xl:px-40 backdrop-blur-lg border border-b-surface-variant/10 bg-background/70  w-full'>
+            <nav className='fixed  top-0 left-0 z-50  px-6 py-4 sm:px-12 lg:px-24 xl:px-40 backdrop-blur-lg border-b border-surface-variant/10 bg-background/70  w-full'>
                 <div className='flex justify-between items-center'>
                     <div>
                         <h3 className='text-foreground italic tracking-tight font-headline text-2xl'>Neon Monolith</h3>
