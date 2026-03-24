@@ -1,9 +1,10 @@
 import React from 'react'
+import TagPage from './tags/page'
 
 const Home = () => {
   return (
     <div >
-      <h3 > First Commit Let's Start Khalifa </h3>
+      <TagPage />
     </div>
   )
 }
