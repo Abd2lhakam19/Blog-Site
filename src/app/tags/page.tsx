@@ -1,4 +1,5 @@
 import Blogs from '@/features/tags/components/Blogs';
+import EndLine from '@/features/tags/components/EndLine';
 import Info from '@/features/tags/components/Info';
 import Navbar from '@/features/tags/components/Navbar';
 import React from 'react'
@@ -9,7 +10,8 @@ const TagPage = () => {
             <div className='grain-overlay'></div>
             <Navbar />
             <Info />
-            <Blogs/>
+            <Blogs />
+            <EndLine />
         </div>
     )
 }
