@@ -1,12 +1,17 @@
-import React from 'react'
-import TagPage from './tags/page'
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import PostsGrid from "@/components/PostsGrid";
+import Footer from "@/components/Footer";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div >
-      <TagPage />
+    <div className=" bg-background min-h-screen">
+      <Navbar />
+      <main>
+        <Hero />
+        <PostsGrid />
+      </main>
+      <Footer />
     </div>
-  )
+  );
 }
-
-export default Home
