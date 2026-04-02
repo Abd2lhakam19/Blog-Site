@@ -8,7 +8,7 @@ import React from 'react'
 const TagPage = () => {
     return (
         <div className=' bg-background min-h-screen '>
-            <div className='grain-overlay'></div>
+            <div className='grain-overlay' />
             <Navbar />
             <Info />
             <Blogs />

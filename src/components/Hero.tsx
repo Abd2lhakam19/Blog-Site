@@ -11,7 +11,7 @@ export default function Hero() {
       <div className={styles.glow} />
       <div className={styles.line} />
 
-      <h1 className={`${styles.title} font-headline`}>
+      <h1 className={`${styles.title}  font-headline`}>
         {lines.map((line, i) => (
           <span key={i}>
             {line}

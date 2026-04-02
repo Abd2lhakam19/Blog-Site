@@ -15,16 +15,12 @@
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(
-      ellipse 600px 300px at 65% -10%,
+    radial-gradient(ellipse 600px 300px at 65% -10%,
       rgba(59, 232, 196, 0.06) 0%,
-      transparent 70%
-    ),
-    radial-gradient(
-      ellipse 400px 400px at 10% 90%,
+      transparent 70%),
+    radial-gradient(ellipse 400px 400px at 10% 90%,
       rgba(74, 124, 248, 0.05) 0%,
-      transparent 60%
-    );
+      transparent 60%);
 }
 
 .line {
@@ -33,12 +29,10 @@
   right: 240px;
   width: 1.5px;
   height: 200px;
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    rgba(59, 232, 196, 0.5) 50%,
-    transparent 100%
-  );
+  background: linear-gradient(to bottom,
+      transparent 0%,
+      rgba(59, 232, 196, 0.5) 50%,
+      transparent 100%);
   transform: rotate(-22deg);
 }
 
@@ -53,7 +47,7 @@
 
 .title {
   font-style: italic;
-  font-size: clamp(50px, 7.5vw, 150px);
+  font-size: clamp(50px, 7.5vw, 120px);
   line-height: 0.98;
   color: #f5f2eb;
   max-width: 800px;
@@ -116,6 +110,7 @@
     opacity: 0;
     transform: translateY(22px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -127,6 +122,7 @@
     padding: 60px 20px 60px;
     min-height: 440px;
   }
+
   .line {
     display: none;
   }
